@@ -1,7 +1,8 @@
 version: "3.9"
 services:
     backend:
-        build: ./apps
+        build: .
+        image: hndrkrez/app-games:v1.0
         restart: always
         ports:
             - "3000"
